@@ -59,7 +59,7 @@ def plot(category, state, days):
             x = filter_df_ori['order_purchase_timestamp'],
             y = filter_df_ori['payment_value_roll'],
             mode='lines',
-            marker=dict(color='green')
+            marker=dict(color='gold')
         ),
         go.Scatter(
             name = 'forecasted',
